@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include background_job *.css
+recursive-include background_job *.csv
+recursive-include background_job *.html
+recursive-include background_job *.ico
+recursive-include background_job *.js
+recursive-include background_job *.json
+recursive-include background_job *.md
+recursive-include background_job *.png
+recursive-include background_job *.py
+recursive-include background_job *.svg
+recursive-include background_job *.txt
+recursive-exclude background_job *.pyc
